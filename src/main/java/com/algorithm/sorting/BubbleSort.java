@@ -30,7 +30,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] array = {5, 8, 9, 2, 3, 10, 1, 4, 6};
+        int[] array = {5, 8, 9, 2, 3, 10, 1, 4, 6, 13, 18, 11};
         int[] ints = BubbleSort.bubbleSort(array);
         for(int i = 0; i < array.length; i++){
             System.out.println(ints[i]);
